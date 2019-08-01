@@ -1,0 +1,38 @@
+button {
+  margin: 40px;
+  width: 150px;
+  height: 50px;
+  border-radius: 30px;
+}
+
+.increase {
+  border: 2px solid red;
+  color: red;
+}
+
+.decrease {
+  border: 2px solid blue;
+  color: blue;
+}
+
+.increase:hover {
+  background: red;
+  color: white;
+  font-weight: 900;
+}
+
+.decrease:hover {
+  background: blue;
+  color: white;
+  font-weight: 900;
+}
+
+.increase:active, .decrease:active {
+  background: grey;
+}
+
+#container {
+  margin-left: 220px;
+  color: red;
+  font-size: 2em;
+}
